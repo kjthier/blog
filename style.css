@@ -1,0 +1,102 @@
+body {
+    background-color: #e4e6f8;  
+    font-size: 120%;
+    font-family: "exo", sans-serif;
+}
+
+.wrapper {
+    padding: 1em;
+    background-color: #fff;
+    max-width: 1024px;
+    margin: 0 auto;
+    border-radius: 20px; /*to round borders of the wrapper*/
+    -moz-border-radius: 20px; /*for mozilla browsers*/
+    -webkit-border-radius: 20px; /*for web kit based browsers*/
+    -khtml-border-radius: 20px; /*for old konqueror browsers*/
+}
+
+header .brand{
+    color:cadetblue;
+    font-family: "play", sans-serif;
+    font-size: 48px;  
+    padding: .6em;
+}
+
+header .slogan{
+    color: rgb(84, 48, 158);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;  
+  }
+
+#hawk{
+    min-height: 475px;
+    background: url("./img/martin-adams-hawk.jpg") center/cover no-repeat;
+  }
+
+footer {
+    text-align: center;
+    padding: 1em;
+    font-size: .9em;
+    clear: both;
+}
+
+main {
+    overflow: hidden;
+    /*why not use auto or scroll here?*/
+    display: flex;
+    padding: 1.5em;
+}
+
+#blogcontent {
+    width: 70%;
+    padding-right: 1.5em;
+}
+
+aside {
+    background-color: #cdd6df;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+aside h3 {
+    background-color: #a998a9;
+    color: #fff;
+    padding: .5em;
+    margin-top: 0;
+}
+
+a {
+    color: #333;
+ }
+    
+ a:hover {
+        color: #3c69b1;
+ }
+
+ aside ul {
+    list-style: none;
+    margin: 0;
+ }
+
+ aside a {
+    padding: .5em 0;
+    display: block;
+ }
+
+ article h2 {
+    margin-bottom: 0;
+    font-size: 1.7em;
+    color: #333;
+    padding: 0;
+ }
+
+ article p {
+    margin-top: 0.8em;
+    color: #333;
+    padding: 0;
+ }
+
+ article {
+    margin-bottom: 3.7em;
+    margin-top: 3.7em;
+ }
